@@ -1,21 +1,25 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>It's Shompi - Blog</title><description>I'm Felipe Schneeberger (Shompi), student of the computer engineering in the city of Temuco, Chile.
-I love backend development.</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Sun, 17 Apr 2016 01:02:25 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Me</title><description>&lt;h2 id="whoiam"&gt;Who I am?&lt;/h2&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>It's Shompi - Blog</title><description>I'm Felipe Schneeberger (Shompi), currently studying computer engineering in Temuco, Chile. 
+&lt;/br&gt;I love backend development.</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Sun, 17 Apr 2016 01:24:02 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>About Me</title><description>&lt;h2 id="whoiam"&gt;Who I am?&lt;/h2&gt;
 
-&lt;p&gt;I'm Felipe Schneeberger (Shompi), student of the computer engineering in the city of Temuco, Chile.&lt;/p&gt;
+&lt;p&gt;I'm Felipe Schneeberger (Shompi), currently studying computer engineering in Temuco, Chile. &lt;/p&gt;
 
-&lt;p&gt;I am currently developing a own project called &lt;strong&gt;Kuubit&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;I'm currently developing an own project called &lt;strong&gt;Kuubit&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;I like the development of Web applications with programming languages ​​such as &lt;strong&gt;Javascript, Go, Ruby, Python.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I like Web applications development with programming languages such as &lt;strong&gt;Javascript, Go, Ruby, Python.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;I specialize in web development to the&lt;/p&gt;</description><link>http://localhost:2368/me/</link><guid isPermaLink="false">fbd33f61-56f9-487d-89e1-40f5b25a8004</guid><category>Me</category><dc:creator>Felipe Schneeberger</dc:creator><pubDate>Sun, 17 Apr 2016 00:07:21 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/04/about-me-2.jpg" medium="image"/><content:encoded>&lt;h2 id="whoiam"&gt;Who I am?&lt;/h2&gt;
+&lt;p&gt;I'm specialized in web development with the following stack:&lt;/p&gt;
 
-&lt;img src="http://localhost:2368/content/images/2016/04/about-me-2.jpg" alt="Me"&gt;&lt;p&gt;I'm Felipe Schneeberger (Shompi), student of the computer engineering in the city of Temuco, Chile.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Frontend:&lt;/strong&gt; ReactJS &amp;amp; Redux.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Backend:&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;</description><link>http://localhost:2368/me/</link><guid isPermaLink="false">fbd33f61-56f9-487d-89e1-40f5b25a8004</guid><category>about</category><category>Me</category><dc:creator>Felipe Schneeberger</dc:creator><pubDate>Sun, 17 Apr 2016 00:07:21 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/04/about-me-2.jpg" medium="image"/><content:encoded>&lt;h2 id="whoiam"&gt;Who I am?&lt;/h2&gt;
 
-&lt;p&gt;I am currently developing a own project called &lt;strong&gt;Kuubit&lt;/strong&gt;.&lt;/p&gt;
+&lt;img src="http://localhost:2368/content/images/2016/04/about-me-2.jpg" alt="About Me"&gt;&lt;p&gt;I'm Felipe Schneeberger (Shompi), currently studying computer engineering in Temuco, Chile. &lt;/p&gt;
 
-&lt;p&gt;I like the development of Web applications with programming languages ​​such as &lt;strong&gt;Javascript, Go, Ruby, Python.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I'm currently developing an own project called &lt;strong&gt;Kuubit&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;I specialize in web development to the next stack:&lt;/p&gt;
+&lt;p&gt;I like Web applications development with programming languages such as &lt;strong&gt;Javascript, Go, Ruby, Python.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I'm specialized in web development with the following stack:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Frontend:&lt;/strong&gt; ReactJS &amp;amp; Redux.&lt;/li&gt;
@@ -23,7 +27,7 @@ I love backend development.</description><link>http://localhost:2368/</link><gen
 &lt;li&gt;&lt;strong&gt;Database:&lt;/strong&gt; MongoDB&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id="completedcoursesontheweb"&gt;&lt;strong&gt;Completed courses on the web&lt;/strong&gt;&lt;/h4&gt;
+&lt;h4 id="finishedwebcourses"&gt;&lt;strong&gt;Finished web courses&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;h4 id="platzi"&gt;Platzi:&lt;/h4&gt;
 
