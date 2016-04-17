@@ -1,5 +1,69 @@
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>It's Shompi - Blog</title><description>I'm Felipe Schneeberger (Shompi), currently studying computer engineering in Temuco, Chile. 
-&lt;/br&gt;I love backend development.</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Sun, 17 Apr 2016 01:24:02 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>About Me</title><description>&lt;h2 id="whoiam"&gt;Who I am?&lt;/h2&gt;
+&lt;/br&gt;I love backend development.</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Sun, 17 Apr 2016 18:10:14 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Despliega tu Blog con Ghost en Github Pages</title><description>&lt;h4 id="requisitos"&gt;Requisitos:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Node&lt;/strong&gt; instalado con &lt;strong&gt;nvm&lt;/strong&gt; para cambiar de version.&lt;/li&gt;
+&lt;li&gt;Tener instalado &lt;strong&gt;Buster&lt;/strong&gt; &lt;code&gt;pip install Buster&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Cuenta en &lt;strong&gt;Github&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Lo primero que necesitamos para crear un blog es crear una cuenta en &lt;a href="http://ghost.org"&gt;Ghost&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Luego podemos descargar Ghost en el siguiente link =&gt; &lt;a href="http://ghost.org/download"&gt;Descarga Ghost&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Se descomprime el archivo y luego se accede&lt;/p&gt;</description><link>http://localhost:2368/despliega-tu-blog-con-ghost-en-github-pages/</link><guid isPermaLink="false">bab0c094-1141-40d4-9032-1c19a0af0c3c</guid><dc:creator>Felipe Schneeberger</dc:creator><pubDate>Sun, 17 Apr 2016 17:23:21 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/04/blog001.jpg" medium="image"/><content:encoded>&lt;h4 id="requisitos"&gt;Requisitos:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Node&lt;/strong&gt; instalado con &lt;strong&gt;nvm&lt;/strong&gt; para cambiar de version.&lt;/li&gt;
+&lt;li&gt;Tener instalado &lt;strong&gt;Buster&lt;/strong&gt; &lt;code&gt;pip install Buster&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Cuenta en &lt;strong&gt;Github&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img src="http://localhost:2368/content/images/2016/04/blog001.jpg" alt="Despliega tu Blog con Ghost en Github Pages"&gt;&lt;p&gt;Lo primero que necesitamos para crear un blog es crear una cuenta en &lt;a href="http://ghost.org"&gt;Ghost&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Luego podemos descargar Ghost en el siguiente link =&gt; &lt;a href="http://ghost.org/download"&gt;Descarga Ghost&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Se descomprime el archivo y luego se accede a la ruta desde la terminal. &lt;br&gt;
+Cuando se este dentro de la carpeta de ghost, procedemos a instalarlo con el siguiente comando:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;npm install --production
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Esperamos que termine el proceso de instalación para luego poder ejecutar el siguiente comando:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;npm start
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Luego de esto podemos acceder a nuestro blog en la siguiente URL: &lt;br&gt;
+&lt;code&gt;http://localhost:2368&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Para poder acceder a la administración de nuestro blog, necesitamos configurar la cuenta inicial en la siguiente URL: &lt;br&gt;
+&lt;code&gt;http://localhost:2368/ghost&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;Luego de tener configurada la cuenta de administrador en Ghost podemos crear nuevos post y configurar Ghost a tu gusto.&lt;/p&gt;
+
+&lt;p&gt;Para poder subir este blog a &lt;strong&gt;GitHub Pages&lt;/strong&gt; debemos crear un nuevo repositorio. &lt;a href="https://github.com/new"&gt;Crear Repositorio&lt;/a&gt;  &lt;/p&gt;
+
+&lt;p&gt;Es &lt;strong&gt;importante&lt;/strong&gt; que el nombre de el repositorio sea: &lt;br&gt;
+&lt;code&gt;tu-nombre-de-usuario.github.io&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;En mi caso, mi nombre de usuario es &lt;strong&gt;itsshompi&lt;/strong&gt;, por lo cual mi repositorio tiene como nombre &lt;code&gt;itsshompi.github.io&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Luego de esto nos situamos en la carpeta de Ghost desde la terminal y ejecutamos el comando.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;buster generate
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Con esto se crea una carpeta llamada &lt;strong&gt;static&lt;/strong&gt; la cual tenemos que subir a nuestro repositorio y lo hacemos con los siguientes comandos:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git init // para iniciar git
+git add -A // para añadir los archivos a nuestro commit
+git commit -m "Iniciando mi Blog" // Para crear el comit
+git remote add origin https://github.com/tu-nombre-de-usuario/tu-nombre-de-usuario.github.io.git
+git push origin master //para subir a github
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Con esto ya tenemos nuestro blog en &lt;strong&gt;GitHub Pages&lt;/strong&gt; y podemos acceder a &lt;code&gt;https://tu-nombre-de-usuario.github.io&lt;/code&gt;, para verificar que todo este bien.&lt;/p&gt;</content:encoded></item><item><title>About Me</title><description>&lt;h2 id="whoiam"&gt;Who I am?&lt;/h2&gt;
 
 &lt;p&gt;I'm Felipe Schneeberger (Shompi), currently studying computer engineering in Temuco, Chile. &lt;/p&gt;
 
