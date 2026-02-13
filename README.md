@@ -1,2 +1,2 @@
-# itsshompi.github.io
-My personal blog
+##Itsshompi Page
+This page is deployed on [here](https://itsshompi.github.io).

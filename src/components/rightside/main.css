@@ -1,0 +1,129 @@
+div {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: none;
+}
+
+.container-main {
+  font-family: 'Poppins', sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  padding-top: 85px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 60%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+}
+
+.shompi_section {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  margin: 0px 0px 50px;
+}
+
+.shompi_section_last {
+  margin-bottom: 125px;
+}
+
+.shompi_section_content {
+  margin: 0px 90px 0px;
+  overflow: auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.shompi_main_title {
+  width: 100%;
+  height: auto;
+  clear: both;
+}
+
+.shompi_main_title span {
+  text-transform: uppercase;
+  color: var(--accent-color);
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Saira', sans-serif;
+}
+
+.shompi_main_title h3 {
+  color: var(--text-primary);
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Saira', sans-serif;
+  font-size: 30px;
+}
+
+.shompi_section {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  display: flex;
+}
+
+.shompi_section_content p {
+  color: var(--text-secondary);
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  line-height: 2.2;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .container-main {
+    padding-top: 0px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+  }
+
+  .shompi_section_content {
+    margin: 50px 50px 20px;
+  }
+
+  .shompi_main_title {
+    text-align: center;
+  }
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-content-start {
+  justify-content: flex-start !important;
+}
+
+.justify-content-around {
+  justify-content: space-around !important;
+}
+
+
+.img-thumbnail {
+  width: 192px;
+  height: 108px;
+  object-fit: cover;
+  border: 2px solid var(--border-color);
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.img-thumbnail:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

@@ -1,0 +1,140 @@
+.container-info {
+  float: left;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 40%;
+  background-image: url("../../images/bg_01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .container-info {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    min-height: 490px;
+  }
+}
+
+.principal {
+  margin: 20px 0px 5px 0px;
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+  color: var(--sidebar-text);
+}
+
+.principal h1 {
+  font-size: 30px;
+}
+
+.principal h2 {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.principal h3 {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.principal h4 {
+  margin: 30px 0px;
+  font-size: 16px;
+}
+
+.principal h4 span {
+  color: #cb3903;
+  font-weight: bold;
+}
+
+.principal p span {
+  color: #cb3903;
+  font-weight: bold;
+}
+
+.inner-block {
+  padding: 1.25rem
+}
+
+.inner-block .content-block {
+  margin: 25% 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .inner-block {
+    padding: 2.5625rem
+  }
+
+  .inner-block .content-block {
+    margin: 5% 0 0;
+  }
+}
+
+.avatar {
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #e4e4e4;
+  ;
+  transition: 0.5s;
+}
+
+.avatar:hover {
+  transition: 0.5s;
+  border-radius: 30%;
+  border-color: transparent;
+}
+
+.footer {
+  padding-top: 50px;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 12px;
+  color: #edecec;
+}
+
+.footer p i {
+  color: #ee2a07;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 5px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.footer ul li {
+  display: inline;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  color: var(--sidebar-text);
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.footer ul li a:hover {
+  transition: 0.3s;
+  color: #cdcdcd;
+}
+
+.badge-img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+  cursor: default;
+}
+
+.badge-img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
