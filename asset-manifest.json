@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dbef2e4a.css",
+    "main.js": "/static/js/main.642a0f8b.js",
+    "static/media/img1.jpg": "/static/media/img1.15ead1683291266aa9d1.jpg",
+    "static/media/img6.jpg": "/static/media/img6.b79c97cc9912c88e4187.jpg",
+    "static/media/img2.jpg": "/static/media/img2.c85ff3800ae095891761.jpg",
+    "static/media/bg_01.jpg": "/static/media/bg_01.514437a64c5f7d2ec52f.jpg",
+    "static/media/img4.jpg": "/static/media/img4.1365b38106ba5428d98e.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/img3.jpg": "/static/media/img3.8c0ef44b6a38d91a4098.jpg",
+    "static/media/img5.jpg": "/static/media/img5.1a39075caab5219036d1.jpg",
+    "static/media/Screenshot_25.png": "/static/media/Screenshot_25.26fd9f40272283ec877c.png",
+    "static/media/img7.jpg": "/static/media/img7.1642b4078ce18b53e585.jpg",
+    "static/media/Screenshot_54.png": "/static/media/Screenshot_54.33b62634d93a9c5f1b23.png",
+    "static/media/Screenshot_53.png": "/static/media/Screenshot_53.c3affaceceb229c0ac6f.png",
+    "static/media/img8.jpg": "/static/media/img8.7b7dc1486bf9df9a3dfc.jpg",
+    "static/media/Screenshot_52.png": "/static/media/Screenshot_52.859d7d101729af7671df.png",
+    "static/media/Screenshot_51.png": "/static/media/Screenshot_51.1cf4cb1388de47926dd4.png",
+    "static/media/Screenshot_49.png": "/static/media/Screenshot_49.2001831955bac6de6d62.png",
+    "static/media/Screenshot_50.png": "/static/media/Screenshot_50.3ba6de0b3266f812f77c.png",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/Screenshot_24.png": "/static/media/Screenshot_24.5433d89294f6accfd4b3.png",
+    "static/media/profile.jpeg": "/static/media/profile.c669e52c733b6840c755.jpeg",
+    "index.html": "/index.html",
+    "main.dbef2e4a.css.map": "/static/css/main.dbef2e4a.css.map",
+    "main.642a0f8b.js.map": "/static/js/main.642a0f8b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbef2e4a.css",
+    "static/js/main.642a0f8b.js"
+  ]
+}
