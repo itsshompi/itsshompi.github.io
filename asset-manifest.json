@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dbef2e4a.css",
-    "main.js": "/static/js/main.642a0f8b.js",
+    "main.css": "/static/css/main.8bd38a9e.css",
+    "main.js": "/static/js/main.edad812c.js",
     "static/media/img1.jpg": "/static/media/img1.15ead1683291266aa9d1.jpg",
     "static/media/img6.jpg": "/static/media/img6.b79c97cc9912c88e4187.jpg",
     "static/media/img2.jpg": "/static/media/img2.c85ff3800ae095891761.jpg",
@@ -21,16 +21,21 @@
     "static/media/Screenshot_50.png": "/static/media/Screenshot_50.3ba6de0b3266f812f77c.png",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/google-pml-badge.png": "/static/media/google-pml-badge.0173b2f9327e00fb44b5.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/gen-ai-leader-badge.png": "/static/media/gen-ai-leader-badge.c4e295c861785a900f36.png",
+    "static/media/cloud-developer-badge.png": "/static/media/cloud-developer-badge.76ca71809b3503b4f851.png",
+    "static/media/associate-data-practitioner-badge.png": "/static/media/associate-data-practitioner-badge.c53bf2231d6b0e624a61.png",
+    "static/media/associate-cloud-engineer-badge.png": "/static/media/associate-cloud-engineer-badge.0e2f4445f7fbf94fb53d.png",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/Screenshot_24.png": "/static/media/Screenshot_24.5433d89294f6accfd4b3.png",
     "static/media/profile.jpeg": "/static/media/profile.c669e52c733b6840c755.jpeg",
     "index.html": "/index.html",
-    "main.dbef2e4a.css.map": "/static/css/main.dbef2e4a.css.map",
-    "main.642a0f8b.js.map": "/static/js/main.642a0f8b.js.map"
+    "main.8bd38a9e.css.map": "/static/css/main.8bd38a9e.css.map",
+    "main.edad812c.js.map": "/static/js/main.edad812c.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbef2e4a.css",
-    "static/js/main.642a0f8b.js"
+    "static/css/main.8bd38a9e.css",
+    "static/js/main.edad812c.js"
   ]
 }
