@@ -12,6 +12,8 @@ import badgeGenAI from '../../images/gen-ai-leader-badge.png';
 import badgeCloudEng from '../../images/associate-cloud-engineer-badge.png';
 import badgeData from '../../images/associate-data-practitioner-badge.png';
 
+import credlyIcon from '../../images/credly.svg';
+
 export default class LeftSide extends Component {
   render() {
     return (
@@ -49,10 +51,11 @@ export default class LeftSide extends Component {
               </div>
             </div>
             <div className="footer">
-              <p>Social Networks</p>
+              <p>Social & Profiles</p>
               <ul>
                 <li><a href="https://github.com/itsshompi" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/itsshompi/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.credly.com/users/felipe-schneeberger/" target="_blank" rel="noopener noreferrer"><img src={credlyIcon} alt="Credly" className="social-icon-img" /></a></li>
               </ul>
               <p>Created with <i className="fa fa-heart"></i> in Temuco, Chile.</p>
             </div>

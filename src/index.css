@@ -32,6 +32,7 @@ body {
   --sidebar-bg: transparent;
   /* Left side uses bg image */
   --sidebar-text: #f0f0f0;
+  --icon-filter: none;
 }
 
 [data-theme="dark"] {
@@ -42,6 +43,7 @@ body {
   --accent-color: #ff4081;
   --border-color: #333333;
   --sidebar-text: #f0f0f0;
+  --icon-filter: invert(1);
 }
 
 .copy {

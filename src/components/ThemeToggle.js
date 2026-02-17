@@ -1,4 +1,6 @@
 import React from 'react';
+import sunIcon from '../images/sun.svg';
+import moonIcon from '../images/moon.svg';
 
 const ThemeToggle = ({ theme, toggleTheme }) => {
     return (
@@ -12,16 +14,17 @@ const ThemeToggle = ({ theme, toggleTheme }) => {
                 background: 'transparent',
                 border: 'none',
                 cursor: 'pointer',
-                fontSize: '24px',
-                color: 'var(--text-primary)',
-                transition: 'color 0.3s'
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                padding: '5px',
             }}
             title="Toggle Dark Mode"
         >
             {theme === 'light' ? (
-                <i className="fa fa-moon-o" aria-hidden="true"></i>
+                <img src={moonIcon} alt="Dark Mode" style={{ width: '24px', height: '24px', filter: 'var(--icon-filter)' }} />
             ) : (
-                <i className="fa fa-sun-o" aria-hidden="true"></i>
+                <img src={sunIcon} alt="Light Mode" style={{ width: '24px', height: '24px', filter: 'var(--icon-filter)' }} />
             )}
         </button>
     );

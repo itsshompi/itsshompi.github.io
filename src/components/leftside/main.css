@@ -138,3 +138,9 @@
   transform: scale(1.1);
   filter: brightness(1.2);
 }
+.social-icon-img {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin-bottom: 2px; 
+}
